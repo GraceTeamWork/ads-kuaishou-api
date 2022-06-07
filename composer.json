@@ -1,0 +1,33 @@
+{
+    "name": "grace-team-work/ads-kuaishou-api",
+    "description": "快手 MarketingApi SDK",
+    "keywords": [
+        "快手",
+        "marketing-api",
+        "sdk"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "authors": [
+        {
+            "name": "huangyueguang",
+            "email": "1218199594@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "KuaishouSdk\\": "core/Profile/",
+            "core\\": "core/",
+            "Report\\": "Report/",
+            "AdvertisingDelivery\\": "AdvertisingDelivery/",
+            "AdvertisingOriginality\\": "AdvertisingOriginality/",
+            "AdvertisingPlan\\": "AdvertisingPlan/",
+            "AuthenticationOauth\\": "AuthenticationOauth/",
+            "Advertiser\\": "Advertiser/"
+        }
+    }
+}
