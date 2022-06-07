@@ -20,14 +20,14 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "KuaishouSdk\\": "core/Profile/",
-            "core\\": "core/",
-            "Report\\": "Report/",
-            "AdvertisingDelivery\\": "AdvertisingDelivery/",
-            "AdvertisingOriginality\\": "AdvertisingOriginality/",
-            "AdvertisingPlan\\": "AdvertisingPlan/",
-            "AuthenticationOauth\\": "AuthenticationOauth/",
-            "Advertiser\\": "Advertiser/"
+            "KuaishouSdk\\": "Kscore/Profile/",
+            "Kscore\\": "Kscore/",
+            "KsReport\\": "KsReport/",
+            "KsAdvertisingDelivery\\": "KsAdvertisingDelivery/",
+            "KsAdvertisingOriginality\\": "KsAdvertisingOriginality/",
+            "KsAdvertisingPlan\\": "KsAdvertisingPlan/",
+            "KsAuthenticationOauth\\": "KsAuthenticationOauth/",
+            "KsAdvertiser\\": "KsAdvertiser/"
         }
     }
 }

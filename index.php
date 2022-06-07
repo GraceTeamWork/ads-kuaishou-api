@@ -6,7 +6,7 @@
  * Time: 14:34
  */
 
-use  core\Autoloader\Autoloader;
+use Kscore\Autoloader\Autoloader;
 
-require_once __DIR__ . '/core/Autoloader/Autoloader.php';
+require_once __DIR__ . '/Kscore/Autoloader/Autoloader.php';
 Autoloader::loadDirectories();

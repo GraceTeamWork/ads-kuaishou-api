@@ -11,11 +11,11 @@ namespace Kscore\Autoloader;
 class Autoloader
 {
     private static $autoloadPathArray = array(
-        'core/Autoloader', 'core/Http', 'core/Regions', 'core/Profile', 'core/Exception'
+        'Kscore/Autoloader', 'Kscore/Http', 'Kscore/Regions', 'Kscore/Profile', 'Kscore/Exception'
     );
 
     private static $replacePath = array(
-        "KuaishouSdk\\" => "\\core\\Profile\\"
+        "KuaishouSdk\\" => "\\Kscore\\Profile\\"
     );
 
     /**
@@ -29,7 +29,6 @@ class Autoloader
             $file = $directories . DIRECTORY_SEPARATOR . $path . '.php';
             $file = str_replace('\\', DIRECTORY_SEPARATOR, $file);
             if (is_file($file)) {
-                var_dump(123,$file);
                 include_once $file;
                 break;
             }
@@ -40,7 +39,6 @@ class Autoloader
         }
         $file = $directories . DIRECTORY_SEPARATOR . $className . '.php';
         $file = str_replace('\\', DIRECTORY_SEPARATOR, $file);
-        var_dump(1234,$file);
         if (is_file($file)) {
             include_once $file;
         }

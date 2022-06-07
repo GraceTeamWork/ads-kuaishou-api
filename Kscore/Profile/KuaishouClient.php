@@ -79,8 +79,6 @@ class KuaishouClient
 
     public static function AdvertisingPlan()
     {
-        var_dump(new \KsAdvertisingPlan\Module(new static(static::$access_token)));
-        exit();
         return new \KsAdvertisingPlan\Module(new static(static::$access_token));
     }
 
