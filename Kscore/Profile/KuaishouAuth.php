@@ -10,13 +10,12 @@ namespace KuaishouSdk;
 
 use KsAuthenticationOauth\GetAccessToken;
 use KsAuthenticationOauth\RefreshToken;
-use Kscore\Exception\InvalidParamException;
 use Kscore\Exception\KuaishouException;
 use Kscore\Http\HttpRequest;
 use Kscore\Profile\RequestInteface;
 use Kscore\Profile\RpcRequest;
 
-class KuaishouAuth extends RpcRequest
+class KuaishouAuth
 {
     public $app_id;
 
@@ -55,7 +54,8 @@ class KuaishouAuth extends RpcRequest
     {
         $params = $request->getParams();
         $headers = [
-            'Content-Type' => $request->getContentType()
+            'Content-Type' => $request->getContentType(),
+//            'X-Debug-Mode' => 1,
         ];
         if (null == $url) {
             $url = ($this->is_sanbox ? $this->box_url : $this->server_url) . $request->getUrl();
@@ -76,7 +76,7 @@ class KuaishouAuth extends RpcRequest
     public function getAccessToken($auth_code)
     {
         $request = new GetAccessToken();
-        $request->setParams(['grant_type' => 'auth_code', 'app_id' => $this->app_id, 'secret' => $this->secret]);
+        $request->setParams(['app_id' => $this->app_id, 'secret' => $this->secret]);
         $request->addParam('auth_code', $auth_code);
         return $this->execute($request)->getBody();
     }
@@ -89,7 +89,7 @@ class KuaishouAuth extends RpcRequest
     public function refreshToken($refresh_token)
     {
         $request = new RefreshToken();
-        $request->setParams(['grant_type' => 'refresh_token', 'app_id' => $this->app_id, 'secret' => $this->secret, 'refresh_token' => $refresh_token]);
+        $request->setParams(['app_id' => $this->app_id, 'secret' => $this->secret, 'refresh_token' => $refresh_token]);
         return $this->execute($request)->getBody();
     }
 
