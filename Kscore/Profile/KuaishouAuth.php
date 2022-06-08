@@ -10,11 +10,13 @@ namespace KuaishouSdk;
 
 use KsAuthenticationOauth\GetAccessToken;
 use KsAuthenticationOauth\RefreshToken;
+use Kscore\Exception\InvalidParamException;
 use Kscore\Exception\KuaishouException;
 use Kscore\Http\HttpRequest;
 use Kscore\Profile\RequestInteface;
+use Kscore\Profile\RpcRequest;
 
-class KuaishouAuth
+class KuaishouAuth extends RpcRequest
 {
     public $app_id;
 
@@ -43,14 +45,13 @@ class KuaishouAuth
         if (null !== $box_url) $this->box_url = $box_url;
     }
 
-
     /**
      * @param RequestInteface $request
      * @param null $url
      * @return \Kuaishou\core\Http\HttpResponse
      * @throws KuaishouException
      */
-    private function execute(RequestInteface $request, $url = null)
+    public function execute(RequestInteface $request, $url = null)
     {
         $params = $request->getParams();
         $headers = [
@@ -59,8 +60,11 @@ class KuaishouAuth
         if (null == $url) {
             $url = ($this->is_sanbox ? $this->box_url : $this->server_url) . $request->getUrl();
         }
-
-        return HttpRequest::curl($url, $request->getMethod(), json_encode($params), $headers);
+        if (strpos($request->getContentType(), "json") > 0) {
+            $params = json_encode($params);
+        }
+        HttpRequest::$readTimeout = $request->getTimeout();
+        return HttpRequest::curl($url, $request->getMethod(), $params, $headers);
     }
 
     /**

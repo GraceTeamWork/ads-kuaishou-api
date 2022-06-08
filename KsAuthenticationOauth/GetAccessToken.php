@@ -16,11 +16,8 @@ class GetAccessToken extends RpcRequest
      * @var string
      */
     protected $method = 'POST';
-
     protected $url = '/oauth2/authorize/access_token/';
-
-    protected $cotent_type = 'application/json';
-
+    protected $content_type = 'application/json';
     protected $app_id;
     protected $secret;
     protected $grant_type;
