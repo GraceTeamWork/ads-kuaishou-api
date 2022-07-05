@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/KsAdvertisingPlan" isTestSource="false" packagePrefix="KsAdvertisingPlan\" />
       <sourceFolder url="file://$MODULE_DIR$/KsAuthenticationOauth" isTestSource="false" packagePrefix="KsAuthenticationOauth\" />
+      <sourceFolder url="file://$MODULE_DIR$/KsTool" isTestSource="false" packagePrefix="KsTool\" />
       <sourceFolder url="file://$MODULE_DIR$/Kscore" isTestSource="false" packagePrefix="Kscore\" />
       <sourceFolder url="file://$MODULE_DIR$/KsAdvertisingDelivery" isTestSource="false" packagePrefix="KsAdvertisingDelivery\" />
       <sourceFolder url="file://$MODULE_DIR$/Kscore/Profile" isTestSource="false" packagePrefix="KuaishouSdk\" />

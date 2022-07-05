@@ -2,7 +2,7 @@
 
 namespace KsTool;
 
-use kscore\Exception\TouTiaoException;
+use kscore\Exception\KuaishouException;
 use kscore\Profile\BaseModule;
 
 /**
@@ -22,7 +22,7 @@ class Module extends BaseModule
     /**
      * @param $name
      * @return mixed
-     * @throws TouTiaoException
+     * @throws KuaishouException
      */
     public function __get($name)
     {
@@ -30,13 +30,8 @@ class Module extends BaseModule
             if (array_key_exists($name, $this->providers)) {
                 return new $this->providers[$name]($this->client);
             }
-            throw new TouTiaoException("Undefind property $name", 500);
+            throw new KuaishouException("Undefind property $name", 500);
         }
         return $this->$name;
-    }
-
-    public function siteGet()
-    {
-        return new ToolsSiteGet($this->client);
     }
 }

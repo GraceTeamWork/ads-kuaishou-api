@@ -27,7 +27,8 @@
             "KsAdvertisingOriginality\\": "KsAdvertisingOriginality/",
             "KsAdvertisingPlan\\": "KsAdvertisingPlan/",
             "KsAuthenticationOauth\\": "KsAuthenticationOauth/",
-            "KsAdvertiser\\": "KsAdvertiser/"
+            "KsAdvertiser\\": "KsAdvertiser/",
+            "KsTool\\": "KsTool/"
         }
     }
 }
