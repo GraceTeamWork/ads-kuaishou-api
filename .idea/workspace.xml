@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df8b460d-e67f-4ad5-97b9-88bcf852b7a3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2AENyI4f9SdPtk97Ej1JHbjMji3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/KsTool/AppManagement" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api\KsTool\AppManagement" />
+      <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df8b460d-e67f-4ad5-97b9-88bcf852b7a3" name="Default Changelist" comment="" />
+      <created>1654571037675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654571037675</updated>
+      <workItem from="1654571041818" duration="25879000" />
+      <workItem from="1654842130505" duration="594000" />
+      <workItem from="1655776995927" duration="597000" />
+      <workItem from="1655793158067" duration="595000" />
+      <workItem from="1655878633436" duration="897000" />
+      <workItem from="1656035139542" duration="593000" />
+      <workItem from="1656993274814" duration="1400000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1654676439104">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1654676439104" />
+    <state x="739" y="266" key="#com.jetbrains.php.refactoring.move.member.PhpMoveMemberDialog#" timestamp="1654600383670">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="266" key="#com.jetbrains.php.refactoring.move.member.PhpMoveMemberDialog#/0.0.1920.1040@0.0.1920.1040" timestamp="1654600383670" />
+    <state x="739" y="260" key="FileChooserDialogImpl" timestamp="1654594940385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1654594940385" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1654603980759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1654603980759" />
+    <state x="422" y="269" width="786" height="608" key="find.popup" timestamp="1656993670376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="422" y="269" width="786" height="608" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1656993670376" />
+  </component>
+</project>
