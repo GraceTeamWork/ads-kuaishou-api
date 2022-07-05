@@ -1,6 +1,6 @@
 <?php
 
-namespace ksTool\AppManagement;
+namespace KsTool\AppManagement;
 
 use kscore\Profile\BaseModule;
 

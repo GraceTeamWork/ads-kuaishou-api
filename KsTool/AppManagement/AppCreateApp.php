@@ -6,7 +6,7 @@
  * Time: 17:46
  */
 
-namespace ksTool\AppManagement;
+namespace KsTool\AppManagement;
 
 use kscore\Helper\RequestCheckUtil;
 use kscore\Profile\RpcRequest;

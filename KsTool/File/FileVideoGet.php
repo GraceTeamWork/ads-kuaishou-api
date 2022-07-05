@@ -6,11 +6,11 @@
  * Time: 11:42
  */
 
-namespace ksTool\File;
+namespace KsTool\File;
 
 use kscore\Helper\RequestCheckUtil;
 use kscore\Profile\RpcRequest;
-use ksTool\CreativeWord\ToolsCreativeWordCreate;
+use KsTool\CreativeWord\ToolsCreativeWordCreate;
 
 class FileVideoGet extends RpcRequest
 {

@@ -9,14 +9,14 @@ use kscore\Profile\BaseModule;
  * Class Module
  * @package Tool
  *
- *  @property \ksTool\AppManagement\Module $appManagement
- * @property  \ksTool\File\Module $file
+ *  @property \KsTool\AppManagement\Module $appManagement
+ * @property  \KsTool\File\Module $file
  */
 class Module extends BaseModule
 {
     private $providers = [
-        'file' => \ksTool\File\Module::class,
-        'appManagement' => \ksTool\AppManagement\Module::class,
+        'file' => \KsTool\File\Module::class,
+        'appManagement' => \KsTool\AppManagement\Module::class,
     ];
 
     /**
