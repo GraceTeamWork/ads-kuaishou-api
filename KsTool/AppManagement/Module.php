@@ -11,12 +11,12 @@ class Module extends BaseModule
         return new AppGetApp($this->client);
     }
 
-    public function CreateApp()
+    public function createApp()
     {
         return new AppCreateApp($this->client);
     }
 
-    public function UpdateApp()
+    public function updateApp()
     {
         return new AppUpdateApp($this->client);
     }

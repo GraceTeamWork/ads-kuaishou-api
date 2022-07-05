@@ -68,10 +68,26 @@ var_dump($req->getBody());
 
  数据报表|执行方式 
  ------------- | -------------
- 广告主数据（新版）|$client::Report()->advertiserGet()| 
- 广告组数据（新版）|$client::Report()->campaignGet() | 
- 广告计划数据（新版）|$client::Report()->adGet() | 
- 广告创意数据（新版）|$client::Report()->creativeGet() |
+ 广告主数据 |$client::Report()->advertiserGet()| 
+ 广告组数据 |$client::Report()->campaignGet() | 
+ 广告计划数据 |$client::Report()->adGet() | 
+ 广告创意数据 |$client::Report()->creativeGet() |
+ 
+  
+  工具(应用管理) | 执行方式
+  ------------ | -------------
+  查询应用信息 | $client::Tool()->appManagement->getApp() 
+  创建应用 | $client::Tool()->appManagement->createApp() 
+  修改应用 | $client::Tool()->appManagement->updateApp() 
+  
+  工具 （文件管理）| 执行方式
+   ------------- | -------------
+   上传图片v2 |  $client::Tool()->file->imageAd()
+   上传视频v2 | $client::Tool()->file->videoAd()
+   查询图片信息get接口 | $client::Tool()->file->imageAdGet()
+   查询视频信息get接口 | $client::Tool()->file->videoAdGet()
+   获取图片信息list接口 | client::Tool()->file->imageGet()
+   获取视频信息list接口 | $client::Tool()->file->videoGet()
  
 ## License
 
