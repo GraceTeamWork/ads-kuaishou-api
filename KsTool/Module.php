@@ -2,8 +2,8 @@
 
 namespace KsTool;
 
-use kscore\Exception\KuaishouException;
-use kscore\Profile\BaseModule;
+use Kscore\Exception\KuaishouException;
+use Kscore\Profile\BaseModule;
 
 /**
  * Class Module

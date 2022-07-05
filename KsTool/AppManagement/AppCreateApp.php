@@ -8,8 +8,8 @@
 
 namespace KsTool\AppManagement;
 
-use kscore\Helper\RequestCheckUtil;
-use kscore\Profile\RpcRequest;
+use Kscore\Helper\RequestCheckUtil;
+use Kscore\Profile\RpcRequest;
 
 class AppCreateApp extends RpcRequest
 {
@@ -36,7 +36,7 @@ class AppCreateApp extends RpcRequest
     }
 
     /**
-     * @throws \kscore\Exception\InvalidParamException
+     * @throws \Kscore\Exception\InvalidParamException
      */
     public function check()
     {

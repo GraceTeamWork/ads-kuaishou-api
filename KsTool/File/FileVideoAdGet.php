@@ -8,8 +8,8 @@
 
 namespace KsTool\File;
 
-use kscore\Helper\RequestCheckUtil;
-use kscore\Profile\RpcRequest;
+use Kscore\Helper\RequestCheckUtil;
+use Kscore\Profile\RpcRequest;
 use KsTool\CreativeWord\ToolsCreativeWordCreate;
 
 class FileVideoAdGet extends RpcRequest
@@ -43,7 +43,7 @@ class FileVideoAdGet extends RpcRequest
     }
 
     /**
-     * @throws \kscore\Exception\InvalidParamException
+     * @throws \Kscore\Exception\InvalidParamException
      */
     public function check()
     {

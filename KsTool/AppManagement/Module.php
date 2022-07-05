@@ -2,7 +2,7 @@
 
 namespace KsTool\AppManagement;
 
-use kscore\Profile\BaseModule;
+use Kscore\Profile\BaseModule;
 
 class Module extends BaseModule
 {
