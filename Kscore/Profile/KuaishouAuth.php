@@ -94,18 +94,6 @@ class KuaishouAuth
     }
 
     /**
-     * 获取Authcode Url
-     *
-     * @param $cb_url
-     * @return string
-     */
-    public function getAuthCodeUrl($cb_url, $state = "your_custom_params")
-    {
-        $cb_url_encode = urlencode($cb_url);
-        return "https://ad.toutiao.com/openapi/audit/oauth.html?app_id=$this->app_id&state=$state&scope=%5B1%2C2%2C3%2C4%2C5%5D&redirect_uri={$cb_url_encode}";
-    }
-
-    /**
      * @param $access_token
      * @return KuaishouClient
      */

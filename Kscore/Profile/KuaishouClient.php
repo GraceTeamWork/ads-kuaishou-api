@@ -86,4 +86,9 @@ class KuaishouClient
     {
         return new \KsAdvertiser\Module(new static(static::$access_token));
     }
+
+    public static function Tool()
+    {
+        return new \KsTool\Module(new static(static::$access_token));
+    }
 }

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df8b460d-e67f-4ad5-97b9-88bcf852b7a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/KsTool/AppManagement/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsTool/AppManagement/Module.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kscore/Profile/KuaishouAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Kscore/Profile/KuaishouAuth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kscore/Profile/KuaishouClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/Kscore/Profile/KuaishouClient.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <workItem from="1655793158067" duration="595000" />
       <workItem from="1655878633436" duration="897000" />
       <workItem from="1656035139542" duration="593000" />
-      <workItem from="1656993274814" duration="2002000" />
+      <workItem from="1656993274814" duration="3500000" />
     </task>
     <servers />
   </component>
