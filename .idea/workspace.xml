@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df8b460d-e67f-4ad5-97b9-88bcf852b7a3" name="Default Changelist" comment="" />
+    <list default="true" id="df8b460d-e67f-4ad5-97b9-88bcf852b7a3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Kscore/Profile/KuaishouAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Kscore/Profile/KuaishouAuth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kscore/Profile/KuaishouClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/Kscore/Profile/KuaishouClient.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +66,7 @@
       <workItem from="1655793158067" duration="595000" />
       <workItem from="1655878633436" duration="897000" />
       <workItem from="1656035139542" duration="593000" />
-      <workItem from="1656993274814" duration="6034000" />
+      <workItem from="1656993274814" duration="12139000" />
     </task>
     <servers />
   </component>
@@ -79,17 +82,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="266" key="#com.jetbrains.php.refactoring.move.member.PhpMoveMemberDialog#/0.0.1920.1040@0.0.1920.1040" timestamp="1654600383670" />
-    <state x="739" y="260" key="FileChooserDialogImpl" timestamp="1654594940385">
+    <state x="739" y="260" key="FileChooserDialogImpl" timestamp="1657077329906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1654594940385" />
+    <state x="739" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1657077329906" />
     <state x="461" y="151" key="SettingsEditor" timestamp="1654603980759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1654603980759" />
-    <state x="515" y="334" width="786" height="608" key="find.popup" timestamp="1657005393161">
+    <state x="515" y="334" width="786" height="608" key="find.popup" timestamp="1657005843033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="515" y="334" width="786" height="608" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1657005393161" />
+    <state x="515" y="334" width="786" height="608" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1657005843033" />
   </component>
 </project>

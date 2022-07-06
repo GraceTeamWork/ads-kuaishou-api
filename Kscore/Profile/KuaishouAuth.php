@@ -99,6 +99,6 @@ class KuaishouAuth
      */
     public function makeClient($access_token)
     {
-        return new KuaishouClient($access_token, $this->is_sanbox, $this->server_url, $this->box_url);
+        return KuaishouClient::getInstance($access_token, $this->is_sanbox, $this->server_url, $this->box_url);
     }
 }
