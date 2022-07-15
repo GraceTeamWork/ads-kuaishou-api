@@ -71,7 +71,8 @@ var_dump($req->getBody());
  广告主数据 |$client::Report()->advertiserGet()| 
  广告组数据 |$client::Report()->campaignGet() | 
  广告计划数据 |$client::Report()->adGet() | 
- 广告创意数据 |$client::Report()->creativeGet() |
+ 广告创意数据 |$client::Report()->creativeGet() 
+ 广告创意数据 |$client::Report()->proCreativeGet() |
  
   
   工具(应用管理) | 执行方式
