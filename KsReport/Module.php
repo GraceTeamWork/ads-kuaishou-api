@@ -30,6 +30,12 @@ class Module extends BaseModule
         return new ReportCreativeGet($this->client);
     }
 
+    // 广告创意数据
+    public function proCreativeGet()
+    {
+        return new ReportProCreativeGet($this->client);
+    }
+
     public function agentGet()
     {
         return new ReportAgentGet($this->client);

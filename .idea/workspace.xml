@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df8b460d-e67f-4ad5-97b9-88bcf852b7a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Kscore/Profile/KuaishouAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Kscore/Profile/KuaishouAuth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kscore/Profile/KuaishouClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/Kscore/Profile/KuaishouClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KsReport/ReportProCreativeGet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsReport/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/Module.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsReport/ReportCampaignGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportCampaignGet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsReport/ReportCreativeGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportCreativeGet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsReport/ReportDualOneGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportDualOneGet.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +32,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/KsTool/AppManagement" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/KsReport" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api\KsReport" />
       <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api\KsTool\AppManagement" />
       <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api" />
     </key>
@@ -66,7 +70,8 @@
       <workItem from="1655793158067" duration="595000" />
       <workItem from="1655878633436" duration="897000" />
       <workItem from="1656035139542" duration="593000" />
-      <workItem from="1656993274814" duration="12139000" />
+      <workItem from="1656993274814" duration="13098000" />
+      <workItem from="1657876238361" duration="1691000" />
     </task>
     <servers />
   </component>

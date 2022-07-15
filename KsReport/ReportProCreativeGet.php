@@ -12,9 +12,9 @@ use Kscore\Exception\InvalidParamException;
 use Kscore\Helper\RequestCheckUtil;
 use Kscore\Profile\RpcRequest;
 
-class ReportCreativeGet extends RpcRequest
+class ReportProCreativeGet extends RpcRequest
 {
-    protected $url = '/v1/report/creative_report/';
+    protected $url = '/v1/report/program_creative_report/';
     protected $method = 'GET';
     protected $content_type = 'application/json';
 
@@ -32,6 +32,7 @@ class ReportCreativeGet extends RpcRequest
      * 结束日期,格式YYYY-MM-DD,只支持查询2016-10-26及以后的日期
      */
     protected $end_date;
+
 
     /**
      * @param mixed $args
