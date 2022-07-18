@@ -10,13 +10,12 @@ namespace KsReport;
 
 use Kscore\Helper\RequestCheckUtil;
 use Kscore\Profile\RpcRequest;
-use KsDmp\DmpCustomAudienceDelete;
 
 class ReportAdGet extends RpcRequest
 {
     protected $url = '/v1/report/unit_report/';
     protected $content_type = 'application/json';
-    protected $method = 'GET';
+    protected $method = 'POST';
 
     /**
      * 广告主ID

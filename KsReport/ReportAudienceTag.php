@@ -14,7 +14,7 @@ use Kscore\Profile\RpcRequest;
 class ReportAudienceTag extends RpcRequest
 {
     protected $url = '/2/report/audience/tag/';
-    protected $method = 'GET';
+    protected $method = 'POST';
     protected $content_type = 'application/json';
 
     /**

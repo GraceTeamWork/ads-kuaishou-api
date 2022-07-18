@@ -14,7 +14,7 @@ use Kscore\Profile\RpcRequest;
 class ReportAudienceAge extends RpcRequest
 {
     protected $url = '/2/report/audience/age/';
-    protected $method = 'GET';
+    protected $method = 'POST';
     protected $content_type = 'application/json';
 
     /**

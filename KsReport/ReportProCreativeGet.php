@@ -15,7 +15,7 @@ use Kscore\Profile\RpcRequest;
 class ReportProCreativeGet extends RpcRequest
 {
     protected $url = '/v1/report/program_creative_report/';
-    protected $method = 'GET';
+    protected $method = 'POST';
     protected $content_type = 'application/json';
 
     /**

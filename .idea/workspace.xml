@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df8b460d-e67f-4ad5-97b9-88bcf852b7a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsReport/ReportAdGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAdGet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsReport/ReportAdvertiserGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAdvertiserGet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsReport/ReportAgentGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAgentGet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsReport/ReportAudienceAge.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAudienceAge.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsReport/ReportAudienceCity.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAudienceCity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsReport/ReportAudienceGender.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAudienceGender.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsReport/ReportAudienceProvince.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAudienceProvince.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsReport/ReportAudienceTag.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAudienceTag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsReport/ReportCampaignGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportCampaignGet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsReport/ReportCreativeGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportCreativeGet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsReport/ReportDualOneGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportDualOneGet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsReport/ReportProCreativeGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportProCreativeGet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsTool/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsTool/Module.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +40,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/KsReport" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/KsTool/QueryTool" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api\KsTool\QueryTool" />
+      <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api\KsTool" />
       <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api\KsReport" />
       <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api\KsTool\AppManagement" />
       <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api" />
@@ -67,7 +81,7 @@
       <workItem from="1655878633436" duration="897000" />
       <workItem from="1656035139542" duration="593000" />
       <workItem from="1656993274814" duration="13098000" />
-      <workItem from="1657876238361" duration="1751000" />
+      <workItem from="1657876238361" duration="6360000" />
     </task>
     <servers />
   </component>
@@ -83,17 +97,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="266" key="#com.jetbrains.php.refactoring.move.member.PhpMoveMemberDialog#/0.0.1920.1040@0.0.1920.1040" timestamp="1654600383670" />
-    <state x="739" y="260" key="FileChooserDialogImpl" timestamp="1657077329906">
+    <state x="739" y="260" key="FileChooserDialogImpl" timestamp="1657935949457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1657077329906" />
+    <state x="739" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1657935949457" />
     <state x="461" y="151" key="SettingsEditor" timestamp="1654603980759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1654603980759" />
-    <state x="515" y="334" width="786" height="608" key="find.popup" timestamp="1657005843033">
+    <state x="515" y="334" width="786" height="608" key="find.popup" timestamp="1658132829450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="515" y="334" width="786" height="608" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1657005843033" />
+    <state x="515" y="334" width="786" height="608" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1658132829450" />
   </component>
 </project>

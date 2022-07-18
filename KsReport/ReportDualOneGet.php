@@ -15,7 +15,7 @@ use Kscore\Profile\RpcRequest;
 class ReportDualOneGet extends RpcRequest
 {
     protected $url = '/2/report/integrated/get/';
-    protected $method = 'GET';
+    protected $method = 'POST';
     protected $content_type = 'application/json';
 
     /**

@@ -15,7 +15,7 @@ class ReportAudienceCity extends RpcRequest
 {
     protected $url = '/2/report/audience/city/';
     protected $content_type = 'application/json';
-    protected $method = 'GET';
+    protected $method = 'POST';
     /**
      * 广告主ID
      */

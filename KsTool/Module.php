@@ -17,6 +17,7 @@ class Module extends BaseModule
     private $providers = [
         'file' => \KsTool\File\Module::class,
         'appManagement' => \KsTool\AppManagement\Module::class,
+        'query' => \KsTool\QueryTool\Module::class,
     ];
 
     /**

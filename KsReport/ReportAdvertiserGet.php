@@ -16,7 +16,7 @@ class ReportAdvertiserGet extends RpcRequest
 {
     protected $url = '/v1/report/account_report/';
     protected $content_type = 'application/json';
-    protected $method = 'GET';
+    protected $method = 'POST';
 
     /**
      * 广告主ID

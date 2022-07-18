@@ -13,7 +13,7 @@ use Kscore\Profile\RpcRequest;
 class ReportAgentGet extends RpcRequest
 {
     protected $url = '/2/report/agent/get/';
-    protected $method = 'GET';
+    protected $method = 'POST';
     protected $content_type = 'application/json';
 
     /**
