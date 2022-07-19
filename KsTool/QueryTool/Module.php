@@ -18,5 +18,10 @@ class Module extends BaseModule
         return new GetKeyFrame($this->client);
     }
 
+    // 获取创意分类查询接口
+    public function getCreativeCategory()
+    {
+        return new GetCreativeCategory($this->client);
+    }
 
 }

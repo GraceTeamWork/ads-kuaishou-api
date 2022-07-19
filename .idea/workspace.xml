@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df8b460d-e67f-4ad5-97b9-88bcf852b7a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportAdGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAdGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportAdvertiserGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAdvertiserGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportAgentGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAgentGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportAudienceAge.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAudienceAge.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportAudienceCity.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAudienceCity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportAudienceGender.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAudienceGender.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportAudienceProvince.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAudienceProvince.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportAudienceTag.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAudienceTag.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportCampaignGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportCampaignGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportCreativeGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportCreativeGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportDualOneGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportDualOneGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportProCreativeGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportProCreativeGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsTool/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsTool/Module.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KsTool/QueryTool/GetCreativeCategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsTool/QueryTool/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsTool/QueryTool/Module.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +70,7 @@
       <workItem from="1655878633436" duration="897000" />
       <workItem from="1656035139542" duration="593000" />
       <workItem from="1656993274814" duration="13098000" />
-      <workItem from="1657876238361" duration="6360000" />
+      <workItem from="1657876238361" duration="8855000" />
     </task>
     <servers />
   </component>
