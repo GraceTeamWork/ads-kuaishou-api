@@ -24,6 +24,12 @@ class FileImageAd extends RpcRequest
     protected $advertiser_id;
 
     /**
+     * 上传图片类型
+     * @var string $type
+     */
+    protected $type = 0;
+
+    /**
      * 图片上传方式
      * 默认值: UPLOAD_BY_FILE
      * 允许值: "UPLOAD_BY_FILE", "UPLOAD_BY_URL"
@@ -53,7 +59,7 @@ class FileImageAd extends RpcRequest
      * 素材名，upload_type为UPLOAD_BY_FILE必填
      * @var string $filename
      */
-    protected $filename;
+    protected $file;
 
     /**
      * @return int
@@ -71,6 +77,25 @@ class FileImageAd extends RpcRequest
     {
         $this->params["advertiser_id"] = $advertiser_id;
         $this->advertiser_id = $advertiser_id;
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getType()
+    {
+        return $this->type;
+    }
+
+    /**
+     * @param string $type
+     * @return $this
+     */
+    public function setType($type)
+    {
+        $this->params["type"] = $type;
+        $this->type = $type;
         return $this;
     }
 
@@ -98,17 +123,17 @@ class FileImageAd extends RpcRequest
      */
     public function getImageSignature()
     {
-        return $this->image_signature;
+        return $this->signature;
     }
 
     /**
-     * @param string $image_signature
+     * @param string $signature
      * @return $this
      */
-    public function setImageSignature($image_signature)
+    public function setImageSignature($signature)
     {
-        $this->params["image_signature"] = $image_signature;
-        $this->image_signature = $image_signature;
+        $this->params["signature"] = $signature;
+        $this->signature = $signature;
         return $this;
     }
 
@@ -117,17 +142,17 @@ class FileImageAd extends RpcRequest
      */
     public function getImageFile()
     {
-        return $this->image_file;
+        return $this->file;
     }
 
     /**
-     * @param string $image_file
+     * @param string $file
      * @return $this
      */
-    public function setImageFile($image_file)
+    public function setImageFile($file)
     {
-        $this->params["image_file"] = '@' . $image_file;
-        $this->image_file = $image_file;
+        $this->params["file"] = '@' . $file;
+        $this->file = $file;
         return $this;
     }
 
@@ -136,36 +161,17 @@ class FileImageAd extends RpcRequest
      */
     public function getImageUrl()
     {
-        return $this->image_url;
+        return $this->url;
     }
 
     /**
-     * @param string $image_url
+     * @param string $url
      * @return $this
      */
     public function setImageUrl($image_url)
     {
-        $this->params["image_url"] = $image_url;
+        $this->params["url"] = $image_url;
         $this->image_url = $image_url;
-        return $this;
-    }
-
-    /**
-     * @return string
-     */
-    public function getFileName()
-    {
-        return $this->filename;
-    }
-
-    /**
-     * @param string $upload_type
-     * @return $this
-     */
-    public function setFileName($filename)
-    {
-        $this->params["filename"] = $filename;
-        $this->filename = $filename;
         return $this;
     }
 
@@ -175,12 +181,11 @@ class FileImageAd extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        if ($this->upload_type == 'UPLOAD_BY_URL') {
-            $this->content_type = 'application/json';
+        if ($this->upload_type == 2) {
             RequestCheckUtil::checkNotNull($this->image_url, 'image_url');
         } else {
-            RequestCheckUtil::checkNotNull($this->image_signature, 'image_signature');
-            RequestCheckUtil::checkNotNull($this->image_file, 'image_file');
+            RequestCheckUtil::checkNotNull($this->signature, 'signature');
+            RequestCheckUtil::checkNotNull($this->file, 'file');
         }
     }
 }

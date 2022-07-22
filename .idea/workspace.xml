@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df8b460d-e67f-4ad5-97b9-88bcf852b7a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/KsTool/QueryTool/GetCreativeCategory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsTool/QueryTool/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsTool/QueryTool/Module.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KsAdvertisingOriginality/ProcCreativeCreate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KsAdvertisingOriginality/ProcCreativeUpdate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsAdvertisingOriginality/CreativeCreate.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsAdvertisingOriginality/CreativeCreate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsAdvertisingOriginality/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsAdvertisingOriginality/Module.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsTool/File/FileImageAd.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsTool/File/FileImageAd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsTool/File/FileVideoAd.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsTool/File/FileVideoAd.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,16 +33,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/KsTool/QueryTool" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/KsAdvertisingOriginality" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api\KsAdvertisingOriginality" />
       <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api\KsTool\QueryTool" />
       <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api\KsTool" />
       <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api\KsReport" />
       <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api\KsTool\AppManagement" />
-      <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -70,7 +74,7 @@
       <workItem from="1655878633436" duration="897000" />
       <workItem from="1656035139542" duration="593000" />
       <workItem from="1656993274814" duration="13098000" />
-      <workItem from="1657876238361" duration="8855000" />
+      <workItem from="1657876238361" duration="17356000" />
     </task>
     <servers />
   </component>

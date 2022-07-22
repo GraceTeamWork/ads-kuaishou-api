@@ -27,6 +27,16 @@ class Module extends BaseModule
         return new CreativeUpdate($this->client);
     }
 
+    public function procCreativeCreate()
+    {
+        return new ProcCreativeCreate($this->client);
+    }
+
+    public function procCreativeUpdate()
+    {
+        return new ProcCreativeUpdate($this->client);
+    }
+
     public function creativeUpdateStatus()
     {
         return new CreativeUpdateStatus($this->client);

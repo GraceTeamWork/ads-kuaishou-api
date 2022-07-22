@@ -24,17 +24,24 @@ class FileVideoAd extends RpcRequest
      */
     protected $advertiser_id;
 
+
+    /**
+     * 上传视频类型
+     * @var string $type
+     */
+    protected $type = 1;
+
     /**
      * 视频的md5(用于服务端校验)
      * @var string $video_signature
      */
-    protected $video_signature;
+    protected $signature;
 
     /**
      * 视频文件,格式mp4、mpeg、3gp、avi
      * @var string $video_file
      */
-    protected $video_file;
+    protected $file;
 
     /**
      * 视频文件名,
@@ -64,19 +71,38 @@ class FileVideoAd extends RpcRequest
     /**
      * @return string
      */
-    public function getVideoSignature()
+    public function getType()
     {
-        return $this->video_signature;
+        return $this->type;
     }
 
     /**
-     * @param string $video_signature
+     * @param string $type
      * @return $this
      */
-    public function setVideoSignature($video_signature)
+    public function setType($type)
     {
-        $this->params["video_signature"] = $video_signature;
-        $this->video_signature = $video_signature;
+        $this->params["type"] = $type;
+        $this->type = $type;
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getVideoSignature()
+    {
+        return $this->signature;
+    }
+
+    /**
+     * @param string $signature
+     * @return $this
+     */
+    public function setVideoSignature($signature)
+    {
+        $this->params["signature"] = $signature;
+        $this->signature = $signature;
         return $this;
     }
 
@@ -85,17 +111,17 @@ class FileVideoAd extends RpcRequest
      */
     public function getVideoFile()
     {
-        return $this->video_file;
+        return $this->file;
     }
 
     /**
      * @param string $video_file
      * @return $this
      */
-    public function setVideoFile($video_file)
+    public function setVideoFile($file)
     {
-        $this->params["video_file"] = '@' . $video_file;
-        $this->video_file = $video_file;
+        $this->params["file"] = '@' . $file;
+        $this->file = $file;
         return $this;
     }
 
@@ -113,7 +139,7 @@ class FileVideoAd extends RpcRequest
      */
     public function setFileName($filename)
     {
-        $this->params["filename"] = $filename;
+        $this->params["photo_name"] = $filename;
         $this->filename = $filename;
         return $this;
     }

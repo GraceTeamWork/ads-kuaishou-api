@@ -9,13 +9,13 @@ namespace KsAdvertisingOriginality;
 
 use Kscore\Profile\RpcRequest;
 
-class CreativeCreate extends RpcRequest
+class ProcCreativeCreate extends RpcRequest
 {
     /**
      * @var string
      */
     protected $method = 'POST';
-    protected $url = '/v2/creative/create/';
+    protected $url = '/v2/creative/advanced/program/create/';
     protected $content_type = 'application/json';
 
     /**
