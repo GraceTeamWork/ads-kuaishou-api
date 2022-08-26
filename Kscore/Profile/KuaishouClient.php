@@ -26,13 +26,7 @@ class KuaishouClient
     private static $instance = null;
 
     // 禁止被实例化
-    private function __construct($access_token, $is_sanbox, $server_url, $box_url)
-    {
-        static::$access_token = $access_token;
-        static::$is_sanbox = $is_sanbox;
-        if (null !== $server_url) static::$server_url = $server_url;
-        if (null !== $box_url) static::$box_url = $box_url;
-    }
+    private function __construct($access_token, $is_sanbox, $server_url, $box_url){}
 
     // 禁止clone
     private function __clone(){}
@@ -40,10 +34,15 @@ class KuaishouClient
     //  实例化自己并保存到$instance中，已实例化则直接调用
     public static function getInstance($access_token, $is_sanbox, $server_url, $box_url): object
     {
-        if (empty(self::$instance)) {
-            self::$instance = new self($access_token, $is_sanbox, $server_url, $box_url);
+        static::$access_token = $access_token;
+        static::$is_sanbox = $is_sanbox;
+        if (null !== $is_sanbox) static::$is_sanbox = $is_sanbox;
+        if (null !== $server_url) static::$server_url = $server_url;
+        if (null !== $box_url) static::$box_url = $box_url;
+        if (empty(self::$instance[$access_token])) {
+            self::$instance[$access_token] = new self($access_token, $is_sanbox, $server_url, $box_url);
         }
-        return self::$instance;
+        return self::$instance[$access_token];
     }
 
     /**
@@ -79,31 +78,31 @@ class KuaishouClient
 
     public static function Report()
     {
-        return new \KsReport\Module(self::$instance);
+        return new \KsReport\Module(self::$instance[static::$access_token]);
     }
 
     public static function AdvertisingDelivery()
     {
-        return new \KsAdvertisingDelivery\Module(self::$instance);
+        return new \KsAdvertisingDelivery\Module(self::$instance[static::$access_token]);
     }
 
     public static function AdvertisingOriginality()
     {
-        return new \KsAdvertisingOriginality\Module(self::$instance);
+        return new \KsAdvertisingOriginality\Module(self::$instance[static::$access_token]);
     }
 
     public static function AdvertisingPlan()
     {
-        return new \KsAdvertisingPlan\Module(self::$instance);
+        return new \KsAdvertisingPlan\Module(self::$instance[static::$access_token]);
     }
 
     public static function Advertiser()
     {
-        return new \KsAdvertiser\Module(self::$instance);
+        return new \KsAdvertiser\Module(self::$instance[static::$access_token]);
     }
 
     public static function Tool()
     {
-        return new \KsTool\Module(self::$instance);
+        return new \KsTool\Module(self::$instance[static::$access_token]);
     }
 }

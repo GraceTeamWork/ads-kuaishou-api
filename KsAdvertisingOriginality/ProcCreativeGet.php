@@ -1,6 +1,6 @@
 <?php
 /**
- * 获取创意列表
+ * 获取程序化创意2.0列表
  * User: yueguang
  * Date: 2022/07/25
  * Time: 11:09
@@ -11,13 +11,13 @@ use Kscore\Exception\InvalidParamException;
 use Kscore\Helper\RequestCheckUtil;
 use Kscore\Profile\RpcRequest;
 
-class CreativeGet extends RpcRequest
+class ProcCreativeGet extends RpcRequest
 {
     /**
      * @var string
      */
-    protected $method = 'GET';
-    protected $url = '/v1/creative/list/';
+    protected $method = 'POST';
+    protected $url = '/v2/creative/advanced/program/list/';
     protected $content_type = 'application/json';
 
     /**
