@@ -22,17 +22,6 @@ class ReportDualOneGet extends RpcRequest
      * 广告主ID
      */
     protected $advertiser_id;
-
-    /**
-     * 起始日期,格式YYYY-MM-DD,只支持查询2016-10-26及以后的日期
-     */
-    protected $start_date;
-
-    /**
-     * 结束日期,格式YYYY-MM-DD,只支持查询2016-10-26及以后的日期
-     */
-    protected $end_date;
-
     /**
      * @param mixed $args
      * @return $this
@@ -51,8 +40,5 @@ class ReportDualOneGet extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->start_date, 'start_date');
-        RequestCheckUtil::checkNotNull($this->end_date, 'end_date');
-        RequestCheckUtil::checkNotNull($this->group_by, 'group_by');
     }
 }

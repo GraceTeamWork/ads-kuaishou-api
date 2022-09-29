@@ -23,16 +23,6 @@ class ReportProCreativeGet extends RpcRequest
      */
     protected $advertiser_id;
 
-    /**
-     * 起始日期,格式YYYY-MM-DD,只支持查询2016-10-26及以后的日期
-     */
-    protected $start_date;
-
-    /**
-     * 结束日期,格式YYYY-MM-DD,只支持查询2016-10-26及以后的日期
-     */
-    protected $end_date;
-
 
     /**
      * @param mixed $args
@@ -52,7 +42,5 @@ class ReportProCreativeGet extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->start_date, 'start_date');
-        RequestCheckUtil::checkNotNull($this->end_date, 'end_date');
     }
 }

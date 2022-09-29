@@ -24,33 +24,6 @@ class ReportAdvertiserGet extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 起始日期,格式YYYY-MM-DD,只支持查询2016-10-26及以后的日期
-     */
-    protected $start_date;
-
-    /**
-     * 结束日期,格式YYYY-MM-DD,只支持查询2016-10-26及以后的日期
-     */
-    protected $end_date;
-
-    /**
-     * 搜索页码, 默认值为1
-     */
-    protected $page;
-
-    /**
-     * 一页展示的数据数量
-     */
-    protected $page_size;
-
-    /**
-     * 时间粒度 "STAT_TIME_GRANULARITY_DAILY"表示天, "STAT_TIME_GRANULARITY_HOURLY"表示小时
-     * 默认值: STAT_TIME_GRANULARITY_DAILY
-     * 允许值: "STAT_TIME_GRANULARITY_DAILY","STAT_TIME_GRANULARITY_HOURLY"
-     */
-    protected $time_granularity;
-
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -68,7 +41,5 @@ class ReportAdvertiserGet extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->start_date, 'start_date');
-        RequestCheckUtil::checkNotNull($this->end_date, 'end_date');
     }
 }
