@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df8b460d-e67f-4ad5-97b9-88bcf852b7a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportAdGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAdGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportAdvertiserGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAdvertiserGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportAgentGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAgentGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportAudienceAge.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAudienceAge.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportAudienceCity.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAudienceCity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportAudienceGender.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAudienceGender.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportAudienceProvince.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAudienceProvince.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportAudienceTag.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportAudienceTag.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportCampaignGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportCampaignGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportCreativeGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportCreativeGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportDualOneGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportDualOneGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KsReport/ReportProCreativeGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsReport/ReportProCreativeGet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KsAdvertiser/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/KsAdvertiser/Module.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +28,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Kscore/Profile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/KsAdvertiser" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api\KsAdvertiser" />
       <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api\Kscore\Profile" />
       <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api\KsAdvertisingOriginality" />
       <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api\KsTool\QueryTool" />
       <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api\KsTool" />
-      <recent name="D:\phpstudy_pro\WWW\ads-kuaishou-api\KsReport" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -83,7 +72,8 @@
       <workItem from="1657876238361" duration="18377000" />
       <workItem from="1658714232078" duration="2691000" />
       <workItem from="1661508685314" duration="1463000" />
-      <workItem from="1664434177824" duration="297000" />
+      <workItem from="1664434177824" duration="1213000" />
+      <workItem from="1665279057856" duration="2341000" />
     </task>
     <servers />
   </component>

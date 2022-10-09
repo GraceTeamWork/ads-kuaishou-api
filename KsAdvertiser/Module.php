@@ -36,4 +36,10 @@ class Module extends BaseModule
     {
         return new FundDailyStat($this->client);
     }
+
+    // 获取广告账户流水信息
+    public function majordomo()
+    {
+        return new Majordomo($this->client);
+    }
 }
